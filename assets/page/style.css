@@ -146,9 +146,181 @@ nav .active a, nav a:hover{
     font-size: 14px;
     border-bottom: 1px solid white;
     margin: 10px 0px;
-    padding: 6px;
+    padding: 5px;
 }
 
 .schedules {
     font-weight: normal;
+}
+
+#general {
+    display: flex;
+    justify-content: center;
+}
+
+#general section {
+    flex: 2;
+}
+
+#general aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36A9E1;
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_post_at, article .new_comments {
+    background-color: #2b4c99;
+    color: #ffffff;
+    font: 12px;
+    padding: 10px;
+}
+
+article .new_comments {
+    background-color: #39aae1;
+    margin-left: 2px;
+}
+
+article .news_thumbnail {
+    margin: 30px 0 0 0;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin: 25px 0;
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+}
+
+article .news_resume {
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+aside .widget_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+aside .square {
+    width: 100px;
+    height: 100px;
+    background-color: #39aae1;
+    margin: 10px;
+}
+aside .square:hover {
+    cursor: pointer;
+}
+
+aside .contact_desc {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+aside .phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+aside .phone img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+aside .phone span {
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+aside .mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+aside .mail img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+aside .mail a {
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+aside .mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+aside .mail img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+aside .mail a {
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+aside .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+aside .form img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+aside .form a {
+    margin-left: 3px;
+    margin-right: 3px;
 }
