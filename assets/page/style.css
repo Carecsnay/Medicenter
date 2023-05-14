@@ -21,6 +21,7 @@ header {
 }
 
 .logo {
+    display: flex;
     align-items: center;
 }
 
@@ -571,7 +572,7 @@ footer .areaItem3_desc .data_post {
     }
 
     .footer_area, .footer_areaItem {
-        margin-left: 05px;
+        margin-left: 5px;
     }
 
     footer .areaItem_desc, footer .areaItem_contact, footer .socials, footer .desc {
@@ -591,5 +592,11 @@ footer .areaItem3_desc .data_post {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: 426px ) { 
+    #general .widget_title .widget_title_text {
+        margin-top: 55px;
     }
 }
