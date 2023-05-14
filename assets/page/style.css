@@ -613,4 +613,10 @@ footer .areaItem3_desc .data_post {
     #general .widget_title .widget_title_text {
         margin-top: 85px;
     }
+
+    #general div:nth-child(2) .widget_body .contact_desc {
+        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
