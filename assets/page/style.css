@@ -269,9 +269,11 @@ aside .phone img {
     margin-right: 5px;
 }
 
-aside .phone span {
+aside .phone a {
     font-weight: bold;
     margin-left: 3px;
+    text-decoration: none;
+    color: #000000;
 }
 
 aside .mail {
@@ -323,4 +325,148 @@ aside .form img {
 aside .form a {
     margin-left: 3px;
     margin-right: 3px;
+}
+
+footer {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.fm1, .fm2, .fm3:hover {
+    cursor: pointer;
+}
+
+.fm1 {
+    background-color: #39AAE1;
+}
+
+.fm2 {
+    background-color: #0079C7;
+}
+
+.fm3 {
+    background-color: #2B4C99;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_areaItem {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+footer .widget_title_text {
+    color: #FFFFFF;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+footer .areaItem_desc {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #5c5c5c;
+    padding: 0 10px 0 0;
+
+}
+
+footer .areaItem_contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #5c5c5c;
+    padding: 0 10px 0 0;
+
+}
+
+footer .address {
+    font-size: 14px;
+    max-width: 100px;
+    color: #5c5c5c;
+
+}
+
+footer .contact {
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+footer .contact a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+footer .contact a#mail{
+    color: #FFFFFF;
+}
+
+footer .socials a {
+    text-decoration: none;
+}
+
+footer .socials a img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .areaItem2_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .areaItem2_desc .desc {
+    font-size: 14px;
+}
+
+footer .areaItem2_desc .data_post {
+    font-size: 12px;
+    color: #39AAE1;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer .areaItem3_desc {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+footer .areaItem3_desc a {
+    color: #FFFFFF;
+}
+
+footer .areaItem3_desc .data_post {
+    font-size: 12px;
+    color: #39AAE1;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
