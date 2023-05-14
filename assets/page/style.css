@@ -353,8 +353,8 @@ footer .footer_menu {
     padding: 20px;
 }
 
-.fm1,
-.fm2,
+.fm1:hover,
+.fm2:hover,
 .fm3:hover {
     cursor: pointer;
 }
@@ -481,8 +481,8 @@ footer .areaItem3_desc .data_post {
     margin-bottom: 10px;
     font-weight: bold;
 }
-
-@media (max-width: 600px) {
+/* Suporte até 600px */
+@media (max-width: 768px ) { 
     .menu {
         display: none;
     }
@@ -562,3 +562,4 @@ footer .areaItem3_desc .data_post {
         justify-content: center;
     }
 }
+
