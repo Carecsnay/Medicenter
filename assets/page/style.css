@@ -510,6 +510,12 @@ footer .areaItem3_desc .data_post {
         display: flex;
         flex-direction: column;
         display: none;
+
+        /* Menu Mobile Propriedades */
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
     }
     .widget_title_text, .widget_title_bar {
         margin-left: 10px;
