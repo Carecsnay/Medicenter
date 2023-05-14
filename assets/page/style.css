@@ -481,17 +481,36 @@ footer .areaItem3_desc .data_post {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+    
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
 /* Suporte até 600px */
 @media (max-width: 768px ) { 
-    .menu {
-        display: none;
-    }
-
     header .container {
-        justify-content: center;
+        margin: 0 0 0 20px;
         align-items: center;
     }
 
+    header {
+        height: auto;
+    }
+
+    .menu nav ul {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
     .widget_title_text, .widget_title_bar {
         margin-left: 10px;
     }
@@ -561,5 +580,10 @@ footer .areaItem3_desc .data_post {
         display: flex;
         justify-content: center;
     }
-}
 
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
