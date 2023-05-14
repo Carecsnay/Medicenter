@@ -600,3 +600,17 @@ footer .areaItem3_desc .data_post {
         margin-top: 55px;
     }
 }
+
+@media (max-width: 320px ) { 
+    #banner .banner_headline h1 {
+        font-size: 35px;
+    }
+
+    #banner .banner_headline h2 {
+        font-size: 15px;
+    }
+
+    #general .widget_title .widget_title_text {
+        margin-top: 85px;
+    }
+}
