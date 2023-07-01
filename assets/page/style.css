@@ -59,11 +59,10 @@ nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-
     background-image: url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
-    height: 670px;
+    height: calc(100vh - 120px);
 }
 
 .column {
@@ -488,7 +487,7 @@ footer .areaItem3_desc .data_post {
     width: 40px;
     height: 40px;
     margin: 40px 20px 40px 0;
-    
+
 }
 
 .mm_line {
@@ -497,7 +496,7 @@ footer .areaItem3_desc .data_post {
 }
 
 /* Suporte até 600px */
-@media (max-width: 768px ) { 
+@media (max-width: 768px) {
     header .container {
         margin: 0 0 0 20px;
         align-items: center;
@@ -518,7 +517,9 @@ footer .areaItem3_desc .data_post {
         width: 100%;
         background-color: #FFFFFF;
     }
-    .widget_title_text, .widget_title_bar {
+
+    .widget_title_text,
+    .widget_title_bar {
         margin-left: 10px;
     }
 
@@ -540,10 +541,10 @@ footer .areaItem3_desc .data_post {
         flex-direction: column;
     }
 
-    #general .container{
+    #general .container {
         flex-direction: column;
     }
-    
+
     #general div section {
         margin-top: 325px;
     }
@@ -551,7 +552,7 @@ footer .areaItem3_desc .data_post {
     #general .widget_body.flex article {
         margin: 0 20px
     }
-    
+
     aside div:nth-child(1) .widget_body {
         flex-wrap: wrap;
         justify-content: center;
@@ -563,7 +564,7 @@ footer .areaItem3_desc .data_post {
         flex-direction: column;
     }
 
-    footer .container .footer_menu{
+    footer .container .footer_menu {
         flex-direction: column;
     }
 
@@ -571,11 +572,15 @@ footer .areaItem3_desc .data_post {
         flex-direction: column;
     }
 
-    .footer_area, .footer_areaItem {
+    .footer_area,
+    .footer_areaItem {
         margin-left: 5px;
     }
 
-    footer .areaItem_desc, footer .areaItem_contact, footer .socials, footer .desc {
+    footer .areaItem_desc,
+    footer .areaItem_contact,
+    footer .socials,
+    footer .desc {
         padding: 10px;
     }
 
@@ -583,6 +588,7 @@ footer .areaItem3_desc .data_post {
         margin-left: 10px;
         margin-top: -10px;
     }
+
     .footer_copy {
         display: flex;
         justify-content: center;
@@ -595,13 +601,49 @@ footer .areaItem3_desc .data_post {
     }
 }
 
-@media (max-width: 426px ) { 
+@media (min-width: 376px) and (max-width: 767px) {
+    header {
+        height: 80px;
+    }
+
+    .container .logo img {
+        width: 120px;
+        height: 24px;
+    }
+
+    .menu_mobile{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        margin: 0px;
+    }
+
     #general .widget_title .widget_title_text {
         margin-top: 55px;
     }
+
+    #general aside .widget_body {
+        margin: auto 10px;
+    }
 }
 
-@media (max-width: 320px ) { 
+@media (min-width: 320px) and (max-width: 376px) {
+    header {
+        height: 80px;
+    }
+
+    .container .logo img {
+        width: 120px;
+        height: 24px;
+    }
+
+    .menu_mobile{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        margin: 0px;
+    }
+
     #banner .banner_headline h1 {
         font-size: 35px;
     }
@@ -612,11 +654,20 @@ footer .areaItem3_desc .data_post {
 
     #general .widget_title .widget_title_text {
         margin-top: 85px;
+        margin-left: 20px;
+    }
+
+    #general .widget_title_bar {
+        margin-left: 20px;
     }
 
     #general div:nth-child(2) .widget_body .contact_desc {
         flex-wrap: wrap;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    #general aside .widget_body {
+        margin: auto 10px;
     }
 }
