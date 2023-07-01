@@ -15,7 +15,9 @@ Você pode visualizar o deploy do projeto através desse link:
 
 <p align="center">
   <h3 align="center">Prévia Real do Projeto</h3>
-  <img alt="Design do Projeto" src=".github/Merged.png" width="100%">
+  <img alt="Design do Projeto" src=".github/Merged.png" width="100%"></br></br>
+  <h3 align="center">Versão Completa Web</h3>
+  <img alt="Design do Projeto" src=".github/Web.png"
 </p>
 
 ## 🚀 Tecnologias
